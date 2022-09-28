@@ -1,0 +1,152 @@
+.Consultation {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #328395; */
+    background: linear-gradient(to top, #22798c, #2bb9d8);
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    color: white;
+  }
+  .Consultation .infos {
+    background-color: #2bb9d8;
+    height: 700px;
+    width: 600px;
+    border-radius: 20px;
+    /* margin-top: 3%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Consultation .infos .infos1 {
+    background-color: #328395;
+    height: 400px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Consultation .infos .infos2 {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 50%;
+    justify-content: center;
+  }
+  .Consultation .infos .infos2 button {
+    height: 40px;
+    width: 150px;
+    border-radius: 2em;
+  }
+  .Consultation .infos .infos3 {
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    gap: 2%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Consultation .infos .infos3 span:nth-child(1) {
+    color: red;
+  }
+  .Consultation .infos .infos3 span:nth-child(2) {
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 800px) {
+       .Consultation {
+          width: 100%;
+          height: 100vh; 
+          /* background-color: #328395; */
+           background: linear-gradient(to top, #22798c, #2bb9d8);
+          /* align-items: center; */
+          /* justify-content: center; */
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .Consultation .infos {
+          background-color: #2bb9d8;
+          height: 100%;
+          width: 100%;
+          border-radius: 20px;
+          /* margin-top: 3%; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+        .Consultation .infos .infos1 {
+          background-color: #328395;
+          height: 80%;
+          border-radius: 10px;
+          margin-top: 5%;
+          width: 80%;
+          display: flex;
+          color: white;
+          align-items: center;
+          justify-content: center;
+        }
+        .Consultation .infos .infos1 table{
+          background-color: #328395;
+          width: 80%;
+          margin-top: 5%;
+        }
+        
+        .Consultation .infos .infos2 {
+          height: 100px;
+          width: 50%;
+          display: flex;
+          align-items: center;
+          gap: 50%;
+          justify-content: center;
+        }
+        .Consultation .infos .infos2 button:nth-child(1){
+          height: 50%;
+          width: 100px;
+          padding: 3%;
+          border-radius: 2em;
+        }
+        .Consultation .infos .infos2 button:nth-child(2){
+          height: 50%;
+          width: 100px;
+          padding: 3%;
+          border-radius: 2em;
+        }
+        .Consultation .infos .infos3 {
+          background-color: white;
+          height: 15%;
+          width: 80%;
+          gap: 2%;
+          margin-bottom: 5%;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          font-size: 48%;
+          justify-content: center;
+        }
+        .Consultation .infos .infos3 span:nth-child(1) {
+          color: red;
+        }
+        .Consultation .infos .infos3 span:nth-child(2) {
+          text-transform: uppercase;
+        }
+  }
+  

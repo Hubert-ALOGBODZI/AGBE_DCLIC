@@ -1,0 +1,32 @@
+GET http://localhost:5000/users
+
+
+###
+GET http://localhost:5000/users/63207c5ae7f93ae2dc41973e
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "jojo",
+    "firstName": "DOZ",
+    "email":"DOZ@gmail.com",
+    "age":22,
+    "choix": "Gynecologie",
+    "date": "2022-09-01",
+    "rdv":"Présentiel"
+}
+
+
+###
+PATCH http://localhost:5000/users/63232c914e33e355837bd931
+Content-Type: application/json
+
+{
+    "name": "JOHN DOE",
+    "email":"DOZ@gmail.com",
+    "gender":"Female"
+}
+###
+DELETE  http://localhost:5000/users/63207cd1e7f93ae2dc419746

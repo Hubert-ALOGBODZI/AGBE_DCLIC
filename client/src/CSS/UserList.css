@@ -1,0 +1,15 @@
+.columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.columns .column table tbody tr td{
+   padding-top: 5%;
+    
+}
+.columns a{
+    margin-top: 5%;
+    text-decoration: none;
+}

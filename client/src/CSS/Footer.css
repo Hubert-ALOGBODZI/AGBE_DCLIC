@@ -1,0 +1,13 @@
+.fooTer{
+    color: #126678;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+
+.fooTer span{
+    color: white;
+}

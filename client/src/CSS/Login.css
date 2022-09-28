@@ -1,0 +1,65 @@
+.Login {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #22798c, #2bb9d8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login .innerBox {
+  min-width: 480px;
+  height: fit-content;
+  width: fit-content;
+  padding: 30px;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  /* box-shadow: 1px 1px 4px rgba(4, 15, 18, 0.2); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Login .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Login .footer button{
+  outline: none;
+  border: none;
+  background-color: #22798c;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: 100%;
+  transition: 100ms;
+  cursor: pointer;
+}
+.Login .footer button:hover{
+  background-color: #2bb9d8;
+
+}
+.Login .footer .error {
+    font-weight: bold;
+    font-size: 0.875em;
+    color: red;
+  }
+.Login .footer button:disabled{
+    background-color: gray !important;
+  
+  }
+.Login .footer p{
+  font-weight: 700;
+  color: #000;
+}
+
+.Login .footer p span a{
+    font-weight: bold;
+    color: #22798c;
+    letter-spacing: .1em;
+    text-decoration: none;
+}

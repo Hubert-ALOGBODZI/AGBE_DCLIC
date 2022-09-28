@@ -1,0 +1,130 @@
+.Home .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.Home .text .description {
+  width: 100%;
+  height: 87vh;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home .text .description .desc_card {
+  width: 50%;
+  height: 180px;
+  top: 50%;
+  right: 25%;
+  opacity: 0.8;
+  border-top: #2bb9d8 solid 10px;
+  background-color: black;
+  border-radius: 15px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.Home .text .nessecité {
+  position: absolute;
+  display: flex;
+  gap: 20%;
+  top: 78%;
+  right: 20%;
+  color: white;
+}
+
+.Home .text .nessecité .card span {
+  font-size: 25px;
+  color: white;
+}
+
+.Home .text .nessecité .card {
+  padding-top: 3%;
+  width: 450px;
+  height: 250px;
+  display: flex;
+  border-radius: 1em;
+  justify-content: space-around;
+  gap: 5%;
+  text-align: center;
+  background-color: #126678;
+}
+
+.Home .text .nessecité .card button {
+  color: #126678;
+  padding: 0.2em;
+  border-radius: 1em;
+  outline: none;
+  font-size: 20px;
+
+}
+
+.Home .noire {
+  width: 100%;
+  height: 13vh;
+  background-color: black;
+  border-bottom: #2bb9d8 solid 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .Home .text {
+    height: 75vh;
+    width: 100%;
+    background-color: #126678;
+  }
+  .Home .text .description {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Home .text .description .desc_card {
+    width: 80%;
+    height: 180px;
+    top: 40%;
+    right: 8%;
+    font-size: 70%;
+  }
+  .Home .text .nessecité {
+    display: grid;
+    grid-template-columns: 45% 49%;
+    grid-template-rows: 50%;
+    gap: 6%;
+    top: 79%;
+    padding-left: 10%;
+    right: 0;
+    color: white;
+  }
+
+  .Home .text .nessecité .card span {
+    font-size: 70%;
+    color: white;
+  }
+  .Home .text .nessecité .card:nth-child(1) {
+    display: none;
+  }
+
+  .Home .text .nessecité .card {
+    padding-top: 1%;
+    width: 90%;
+    height: 110px;
+    gap: 0%;
+    text-align: center;
+  }
+
+  .Home .text .nessecité .card button {
+    color: #126678;
+    padding: 0.2em;
+    border-radius: 50px;
+    font-size: 60%;
+
+  }
+}

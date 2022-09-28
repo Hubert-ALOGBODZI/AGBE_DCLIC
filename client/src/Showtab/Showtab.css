@@ -1,0 +1,154 @@
+
+.urgence{
+    background-color:#126678;
+    color: white;
+    width: 100%;
+    padding-top: 2%;
+    height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+}
+.urgence .hopitaux {
+    padding-top: 8%;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.urgence .hopitaux .hopitaux_left {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.urgence .hopitaux .hopitaux_left .different {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    /* padding-top: 3%; */
+    color: black;
+    /* gap: 10%; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.urgence .hopitaux .hopitaux_left .different .card:nth-child(1) {
+    border-top: #2BB9D8 solid 10px;
+}
+
+.urgence .hopitaux .hopitaux_left .different .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding-left: 3%;
+    /* gap: 13%; */
+    width: 600px;
+    height: 70px;
+    justify-content: center;
+}
+
+
+/* =====================================================urgence_VISUEL DU CENTRE================================================================= */
+
+.urgence .hopitaux .hopitaux_right {
+    display: flex;
+    flex-direction: column;
+    /* gap: 2%; */
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+    background-color:#126678;
+}
+
+.urgence .hopitaux .hopitaux_right .info_hopital {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 20%; */
+    /* justify-content: center; */
+    /* width: 900px;
+    height: 900px; */
+    
+    /* background-color: red; */
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 5%;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    background-color:white;
+    /* background-color: white; */
+    color: black;
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .visuel1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* gap: 20%; */
+    color: white;
+    /* justify-content: center; */
+    width: 600px; 
+     height: 450px;
+    /* align-items: center; */
+    background-color:#126678;
+    border-bottom: red solid;
+    /* background-color:white; */
+    /* background-color: white; */
+    /* color: black; */
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .visuel1 h4{
+    padding-top: 2%;
+}
+
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .visuel1 .card_visuel{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 40% 40%;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* padding-top: 1%; */
+    gap: 7%;
+    justify-content: center;
+    width: 600px;
+    height: 250px;
+    align-items: center;
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .card_visuel .card{
+    width: 120px;
+    background-color:#126678;
+    height:100px;
+     
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .spécialités{
+    width: 600px;
+    background-color:#126678;
+    height:300px;
+    padding: 3%;   
+    color: white;
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .spécialités h4{
+    text-align: center;
+}
+
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .map_director{
+    display: flex;
+    gap: 44%;
+    width: 600px;
+    height:100px;
+    
+}
+.urgence .hopitaux .hopitaux_right .info_hopital .visuel .map_director button{
+    padding: .4em;
+    border-radius: 2em;
+    
+}

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.containerd{
+    /* background-color: white; */background-color: rgb(120, 120, 170);
+    width: 95vmin;
+    font-size: 16px;
+    min-width: 30em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: grid;
+    height: 30em;
+    grid-template-columns: 2fr 9fr;
+    box-shadow: 0px 20px 40px  rgba(red, green, blue, alpha);
+}
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: coral;
+}
+h3{
+    height: 33.33%;
+    display: grid;
+    place-items: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tabContain{
+    background-color:cornflowerblue;
+    padding: 1em 1.5em;
+}
+.tabContain h4{
+   font-size: 1.8em;
+   margin-bottom: 0.5em;
+   color: black;
+   font-weight: 600;
+}
+.tabContain p{
+  text-align: justify;
+  line-height: 1.9;
+  letter-spacing: 0.4px;
+  color: black;
+}
+.tabContain div{
+  display: none;
+}
+.tabContain .actived{
+  display: block;
+  color: red;
+}
+.tabContain .active{
+  background-color: white;
+  color: blue;
+}
+

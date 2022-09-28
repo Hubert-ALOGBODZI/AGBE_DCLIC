@@ -1,0 +1,254 @@
+.main{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.main .bloc{
+    padding-top: 10%;
+    /* height: 100vh; */
+}
+.main .bloc .bloc2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    gap: 5%;
+    /* border: solid red; */
+    /* background-color: green; */
+}
+
+/*=============================== left bloc==================================== */
+
+
+.main .bloc .blocleft{
+    width: 40%;
+    height: 500px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #22798C;
+}
+
+.main .bloc .blocleft .localisation{
+    width: 50%;
+    height: 150px;
+    background-color: black;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.main .bloc .blocleft .petitbloc{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+  
+
+    
+}
+.main .bloc .blocleft .petitbloc .mail{
+    width: 35%;
+    height: 200px;
+    border-top: solid white;
+    background-color:#2BB9D8;
+    border-radius: 10px;
+
+
+  
+}
+.main .bloc .blocleft .petitbloc .num{
+    width: 35%;
+    height: 200px;
+    border-radius: 10px;
+    /* border: solid black; */
+    background-color: #2BB9D8;
+
+}
+
+
+/* /============================/right bloc======================= */
+.main .bloc .blocright{
+    width: 40%;
+    border-radius: 10px;
+    height: 500px;
+    float: right;
+    background-color: #22798C;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main .bloc .blocright button{
+    width: 30%;
+    height: 50px;
+    border-radius: 1em;
+    background-color: #2BB9D8;
+    border: solid black;
+}
+
+.main .bloc .blocright .inputbloc{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10%; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.main .bloc .blocright .inputbloc .input1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.main .bloc .blocright .inputbloc .input1 span{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.main .bloc .blocright .area{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    width: 90%;
+    height: 200px;
+}
+
+
+
+.main .bloc .blocright .inputbloc .input1 input{
+    width: 73%;
+     height: 70px
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1114px) {
+
+  
+    .main .bloc{
+        padding-top: 50%;
+        height: 100vh;
+    }
+    
+  
+
+    .main .bloc .blocleft{
+        display: none;
+    }
+    
+/* /============================/right bloc======================= */
+.main .bloc .blocright{
+    margin-top: 20%;
+    width: 80%;
+    height: 70%;
+    background-color: #22798C;
+}
+h1{
+    display: none;
+}
+.main .bloc .blocright button{
+    width: 30%;
+    height: 20%;
+    border-radius: 1em;
+    background-color: #2BB9D8;
+    border: solid black;
+}
+
+.main .bloc .blocright .inputbloc{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%; 
+     /* justify-content: center; */
+    align-items: center;
+}
+.main .bloc .blocright .inputbloc .input1{
+    width: 100%;
+    height: 75%;
+    font-size: 80%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.main .bloc .blocright .inputbloc .input1 input{
+    width:62%;
+    height: 50%;
+    font-size: 60%;
+    margin-top: 5%;
+}
+.main .bloc .blocright .inputbloc .input1 span{
+    font-size: 100%;
+    color: white;
+    margin-top: 5%;
+}
+
+
+
+.main .bloc .blocright .area{
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+    color: white;
+    width: 90%;
+    height: 50%;
+}
+.main .bloc .blocright button{
+    font-size: 90%;
+    width: 90%;
+    height: 18%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+.main .bloc .bloc2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    gap: 5%;
+    /* border: solid red; */
+    /* background-color: green; */
+}
+
+
+
+
+
+
+
+}
+
